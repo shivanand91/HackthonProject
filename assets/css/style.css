@@ -132,6 +132,12 @@ span {
         color: #fff;
         font-size: 20px;
     }
+
+    .create-resume{
+ 
+        display: block;
+        margin-left: 20px;
+    }
 }
 
 .headerSection{
