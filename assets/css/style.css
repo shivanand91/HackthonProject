@@ -187,13 +187,14 @@ span {
     color: #fff;
     margin-top: 20px;
     padding: 20px;
-    border: 2px solid rgb(249, 4, 4);
+    border: 3px solid rgb(249, 4, 4);
     border-radius: 15px 30px 15px 30px;
+    box-shadow: .1px .1px 8px .1px #ececec;
 }
 
 .create-resume:hover{
 
  
-    color: yellow;
+    color: rgb(249, 4, 4);
     border: 2px solid #fff;
 }
