@@ -262,6 +262,26 @@ span {
     gap: 20px;
 }
 
+.example-resume{
+
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    background-image: linear-gradient(to Right, rgba(135, 141, 148, 0.353), rgba(31, 130, 157, 0.452));
+}
+
+.resume{
+
+    margin-top: 40px;
+    border: 3px solid black;
+    width: 60%;
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+/* footer Area */
+
 .footerarea{
 
     padding-top: 4%;
