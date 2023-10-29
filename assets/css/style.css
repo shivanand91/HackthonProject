@@ -8,12 +8,12 @@
 }
 
 
-html{
+html {
 
     overflow-x: hidden;
 }
 
-body{
+body {
 
     overflow-x: hidden;
 }
@@ -27,7 +27,8 @@ body{
     background-color: navy;
 }
 
-.hamburger-menu, .hamburger-cross {
+.hamburger-menu,
+.hamburger-cross {
 
     display: none;
     color: #fff;
@@ -113,18 +114,30 @@ span {
         visibility: hidden;
         pointer-events: none;
     }
-    
-    .active .right-nav{
-        
+
+    .active .right-nav {
+
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
         transition: all 0.5s linear;
     }
 
+    .purpose-container {
+
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .resume-img {
+        height: 800px;
+        margin-left: 20px;
+        align-items: center;
+    }
+
 }
 
-@media (max-width: 470px){
+@media (max-width: 470px) {
 
     .navbar .left-nav a {
 
@@ -133,14 +146,14 @@ span {
         font-size: 30px;
     }
 
-    .create-resume{
- 
+    .create-resume {
+
         display: block;
         margin-left: 20px;
     }
 }
 
-.headerSection{
+.headerSection {
     width: 100%;
     padding-bottom: 10%;
     text-align: center;
@@ -148,10 +161,10 @@ span {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-        
+
 }
 
-.first-head{
+.first-head {
 
     color: #fff;
     align-items: center;
@@ -164,23 +177,25 @@ span {
     font-size: 2.3rem;
 }
 
-.second-head{
+.second-head {
 
     color: #e0eb10;
     align-items: center;
-    padding-bottom: 0.5%; 
+    padding-bottom: 0.5%;
 }
 
-.second-para{
+.second-para {
 
     font-size: 1.5rem;
 }
-.button-container{
+
+.button-container {
 
     margin-top: 3%;
     gap: 20px;
 }
-.create-resume{
+
+.create-resume {
 
     margin-right: 20px;
     text-decoration: none;
@@ -192,9 +207,50 @@ span {
     box-shadow: .1px .1px 8px .1px #ececec;
 }
 
-.create-resume:hover{
+.create-resume:hover {
 
- 
+
     color: rgb(249, 4, 4);
     border: 2px solid #fff;
+}
+
+/* .purpose{
+
+    width: 100%;
+    height: 300px;
+    align-self: center;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 50px;
+    
+} */
+.purpose-heading {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.resume-img {
+    margin-right: 40px;
+    height: 400px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.purpose-container {
+    width: 100%;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purpose-para {
+
+    padding-left: 4%;
+    color: #2d2b2b;
+    width: 70%;
+    text-align: left;
+    gap: 20px;
 }
