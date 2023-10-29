@@ -254,3 +254,84 @@ span {
     text-align: left;
     gap: 20px;
 }
+
+.footerarea{
+
+    padding-top: 4%;
+    justify-content: center;
+    background-image: linear-gradient(to Right, rgba(19, 19, 211, 0.577), rgba(3, 51, 196, 0.758));
+}
+
+.linkcontainer{
+
+    align-items: center;
+    color: #fff;
+    gap: 40px;
+    display: flex;
+    padding-bottom: 3%;
+    justify-content: space-between;
+}
+.linklist{
+
+    padding-left: 40px;
+}
+
+.linklist li{
+
+    padding: 10px;
+    list-style: none;
+
+}
+
+.linklist li a{
+
+    color: #fff;
+    text-decoration: none;
+}
+.linklist li a:hover{
+
+    color: rgb(28, 252, 3);
+    text-decoration: none;
+}
+
+.about{
+
+    padding: 20px;
+    width: 400px;
+}
+
+.copyright{
+
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to Right, rgba(19, 19, 211, 0.577), rgba(3, 51, 196, 0.758));
+}
+
+/* section one */
+.section-one{
+    padding: 64px 0;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.section-one-l img{
+    max-width: 545px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-one-r{
+    margin-top: 4rem;
+}
+
+.section-one .btn-group{
+    margin-top: 2rem;
+}
+.section-one-r{
+    max-width: 545px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-one-r .btn-group{
+    margin-top: 3rem;
+}
