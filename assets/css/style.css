@@ -228,7 +228,8 @@ span {
 
 
     color: rgb(249, 4, 4);
-    border: 2px solid #fff;
+    border: 2px solid #f5d506;
+    background-color: #fff;
 }
 
 .purpose-heading {
